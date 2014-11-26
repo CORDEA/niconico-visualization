@@ -1,4 +1,4 @@
-Extract from sequences by python
+niconico Visualization
 ===============
 
 The repository contains a program, data and result that was used in the blog post.
