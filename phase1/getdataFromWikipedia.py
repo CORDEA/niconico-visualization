@@ -1,14 +1,12 @@
 #!/bin/env python
 # encoding:utf-8
 #
-# Author:   CORDEA
-# Created:  2014-10-19
-#
 
-import os, sys, commands, urllib2
-from HTMLParser import HTMLParser, HTMLParseError
-import smtplib
-from email.mime.text import MIMEText
+__Author__ =  "Yoshihiro Tanaka"
+__date__   =  "2014-11-21"
+
+import sys, urllib2
+from HTMLParser import HTMLParser
 
 class ChParser(HTMLParser):
     def __init__(self):
